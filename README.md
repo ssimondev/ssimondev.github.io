@@ -1,2 +1,0 @@
-# ssimondev.github.io
-website
