@@ -1,0 +1,61 @@
+.navMenu {
+  font-family: Poppins;
+  position: absolute;
+  top: 3%;
+  right: 3%; }
+
+.navMenu a {
+  color: #5D6777;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 80px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
+
+.navMenu a:hover {
+  color: #5D6777; }
+
+.navMenu a:visited {
+  color: #5D6777; }
+
+.navMenu .dot {
+  width: 6px;
+  height: 6px;
+  background: #5D6777;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
+
+.navMenu a:nth-child(1):hover ~ .dot {
+  -webkit-transform: translateX(25px);
+  transform: translateX(25px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1; }
+
+.navMenu a:nth-child(2):hover ~ .dot {
+  -webkit-transform: translateX(113.5px);
+  transform: translateX(113.5px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1; }
+
+.navMenu a:nth-child(3):hover ~ .dot {
+  -webkit-transform: translateX(200px);
+  transform: translateX(200px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1; }
+
+.navMenu a:nth-child(4):hover ~ .dot {
+  -webkit-transform: translateX(290px);
+  transform: translateX(290px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1; }
